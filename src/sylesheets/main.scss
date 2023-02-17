@@ -1,0 +1,35 @@
+//import all scss files
+@import 'navbar';
+@import 'variables';
+@import 'hero';
+@import 'vision';
+@import 'font-families';
+@import 'join';
+@import 'about';
+@import 'partners';
+@import 'footer';
+
+
+//import bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// Universal styles go here
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #0c0c0c;
+    background-image: url("/images/background-2.png");
+}
+
+.subheading{
+    font-family: one;
+}
+
+a{
+    text-decoration: none;
+}
+

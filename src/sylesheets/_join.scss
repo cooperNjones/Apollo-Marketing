@@ -1,0 +1,19 @@
+.apply{
+    width: 80vw;
+    text-align: center;
+    background-image: linear-gradient(rgb(172, 112, 0), rgb(240, 215, 134));
+    box-shadow: 5px 5px 10px black;
+}
+
+.apply:hover{
+    background-image: linear-gradient(rgb(250, 214, 96),rgb(172, 112, 0));
+}
+
+.cta-img{
+    width: 100vw;
+}
+
+.join-header{
+    text-align: center;
+}
+

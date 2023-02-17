@@ -1,0 +1,29 @@
+STEP by STEP guide on starting bootstrap and Parcel server with NPM
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+npm init -y # this creates a package.json file 
+-------------------------------------------------------------------------------
+ npm install --save-dev parcel # after the parcel is installed you have to go up to the scripts section and replace the content with 
+
+   "scripts": {
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+
+This way you can type "npm run dev" to get the server running
+-------------------------------------------------------------------------------
+ npm install bootstrap
+-------------------------------------------------------------------------------
+After bootstrap is installed you can then add 
+
+SCSS --- "@import "~bootstrap/scss/bootstrap";"
+HTML --- <link rel="stylesheet" href="./sylesheets/main.scss">
+ 
+
+Javascript --- import bootstrap from 'bootstrap'
+HTML --- <script type="module" src="./javascripts/main.js"></script>
+
+
+to the custom Javascript file
+-------------------------------------------------------------------------------
