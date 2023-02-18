@@ -27,3 +27,7 @@ HTML --- <script type="module" src="./javascripts/main.js"></script>
 
 to the custom Javascript file
 -------------------------------------------------------------------------------
+
+nav: navbar-nav me-auto mb-2 mb-lg-0
+
+I removed this. Just incase we need it. 

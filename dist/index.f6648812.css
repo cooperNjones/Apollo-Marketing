@@ -10,6 +10,16 @@
   width: 20%;
 }
 
+nav ul li:after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  margin: auto;
+  transition: all .5s;
+  display: block;
+}
+
 @media screen and (min-width: 650px) {
   .nav-logo {
     width: 10%;
@@ -12153,6 +12163,10 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.calendly {
+  color: linear-gradient(#ac7000, #f0d786);
 }
 
 /*# sourceMappingURL=index.f6648812.css.map */
