@@ -9,3 +9,24 @@
 .cta-width{
     width: 20%;
 }
+
+@media screen and (min-width: 650px) {
+    .nav-logo{
+        width:10%;
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    .nav-logo{
+        width:5%;
+    }
+  }
+
+  @media screen and (min-width: 1400px) {
+    .nav-logo{
+        width:3%;
+    }
+  }
+
+
+  

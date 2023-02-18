@@ -10,6 +10,24 @@
   width: 20%;
 }
 
+@media screen and (min-width: 650px) {
+  .nav-logo {
+    width: 10%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .nav-logo {
+    width: 5%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .nav-logo {
+    width: 3%;
+  }
+}
+
 .navbar-toggler-icon {
   color: #fff;
 }
@@ -68,6 +86,10 @@
   text-align: center;
 }
 
+.hidden-header {
+  margin-top: 20%;
+}
+
 .partner-image {
   width: 40%;
   height: auto;
@@ -81,12 +103,29 @@ footer {
   width: 15vw;
 }
 
-.socials {
+.socials, .socials:hover {
   width: 8vw;
+  color: #fff;
 }
 
-a, a:visited {
-  color: #fff;
+@media screen and (min-width: 650px) {
+  .socials {
+    height: 50%;
+  }
+
+  .footer-logo {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .socials {
+    height: 40%;
+  }
+
+  .footer-logo {
+    width: 30%;
+  }
 }
 
 :root {
